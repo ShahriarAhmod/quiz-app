@@ -1,0 +1,86 @@
+/* ================
+Template Name: Quiz App
+Template URL: https://github.com/tanmoy108/Quiz-App
+Description: This is Quiz App build by simple js code .
+Author: Sh Tanmoy
+Author URL: https://github.com/tanmoy108
+Version:1.1.0
+=================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: #BAFFB4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: #FFAB76;
+  padding: 25px;
+  border-radius: 10px;
+}
+#question
+{
+  color: rgb(63, 63, 63);
+}
+#scorebox
+{
+  background-color: #FFFDA2;
+  padding: 25px;
+  border-radius: 10px;
+}
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #c8c8c8;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #FFAB76;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+.btn
+{
+  background-color: #FF6363;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn:hover{
+  background-color: #d45555;
+  color: rgb(255, 255, 255);
+}
+.hide
+{
+  display: none;
+}
+a
+{
+  color: #FF6363;
+  font-weight: bold;
+  text-decoration: none;
+}
